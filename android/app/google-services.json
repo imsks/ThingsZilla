@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "568095565801",
+    "firebase_url": "https://thingszilla.firebaseio.com",
+    "project_id": "thingszilla",
+    "storage_bucket": "thingszilla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568095565801:android:dca227230e8e07d9c94d78",
+        "android_client_info": {
+          "package_name": "app.thingszilla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568095565801-jdd9g2jpu8nb45bgnitgiv0t7r8svb8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ7A12Xo58lBnBTswBE9yi717TUv8c4u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568095565801-jdd9g2jpu8nb45bgnitgiv0t7r8svb8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
