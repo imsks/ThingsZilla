@@ -4,8 +4,7 @@ import 'package:thingszilla/constants.dart';
 import 'package:thingszilla/styleGuide.dart';
 import 'package:thingszilla/screens/components/devices.dart';
 import 'package:thingszilla/screens/components/reports.dart';
-import 'package:thingszilla/screens/widgets/component card.dart';
-
+// import 'package:thingszilla/screens/widgets/component card.dart';
 
 class HomePage extends StatefulWidget {
   static const String id = '/home';
@@ -76,22 +75,23 @@ class _HomePageState extends State<HomePage> {
       body: isFirst
           ? Container(
               child: SingleChildScrollView(
-              child: Align(
-                alignment: Alignment.center,
-                child: Column(
-                  children: <Widget>[
-                    SizedBox(
-                      height: 20,
-                    ),
-                    RoundedContainer(),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    RoundedContainer(),
-                  ],
+                child: Align(
+                  alignment: Alignment.center,
+                  child: Column(
+                    children: <Widget>[
+                      SizedBox(
+                        height: 20,
+                      ),
+//                      roundedContainer(),
+                      SizedBox(
+                        height: 20,
+                      ),
+//                      roundedContainer(),
+                    ],
+                  ),
                 ),
               ),
-            ))
+            )
           : tabs[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex:

@@ -26,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
-                'VireStore',
+                'ThingsZilla',
                 style: TextStyle(
                   fontSize: 40,
                   fontFamily: 'Montserrat',
@@ -34,15 +34,6 @@ class _SplashScreenState extends State<SplashScreen> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Text(
-                'Many needs one place',
-                style: TextStyle(
-                  fontSize: 15,
-                  color: kWhiteColor,
-                  fontFamily: 'Montserrat',
-                  fontWeight: FontWeight.w600,
-                ),
-              )
             ],
           ),
         ),
