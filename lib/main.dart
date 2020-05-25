@@ -10,7 +10,7 @@ class ThingsZilla extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'ThingsZilla',
-      debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.white,
         primarySwatch: Colors.blue,
